@@ -97,3 +97,10 @@ footer > p {
   background-color: #590f0faf !important;
   border-color: #5d13137e !important;
 }
+
+
+.accordion-button,.accordion-header {
+  background-color: #450101ca !important;
+  border-radius: 10px;
+  color: #fff !important;
+}
