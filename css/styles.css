@@ -23,11 +23,6 @@ li:last-child {
   border-right: none;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
 .footer-text {
   color: #fff !important;
 }
@@ -98,9 +93,14 @@ footer > p {
   border-color: #5d13137e !important;
 }
 
-
 .accordion-button,.accordion-header {
   background-color: #450101ca !important;
   border-radius: 10px;
   color: #fff !important;
+}
+
+body.active,
+header.active,
+footer.active {
+  background-color: #af745f !important;
 }
